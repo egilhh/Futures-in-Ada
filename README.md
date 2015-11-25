@@ -37,6 +37,9 @@ I ended up with this syntax:
    end Show_Search;
 ```
 
+Builds using gnatmake or gprbuild:
+gnatmake -Pfuture
+
 Note: My Raspberry Pi don't fully support Ada 2012 at the moment,
 so I hacked my own version of Ada.Containers.Indefinite_Holders.
 This should be changed to the real deal, where present.
