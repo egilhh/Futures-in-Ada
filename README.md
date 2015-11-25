@@ -6,7 +6,7 @@ The first example didn't seem to pan out, however, so I settled on the
 syntax of the second example. (executor.execute instead of executor.submit)
 
 I ended up with this syntax:
-```
+```ada
    procedure Show_Search
      (Self : in out Object;
       Target : String )
