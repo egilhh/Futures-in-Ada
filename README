@@ -6,7 +6,7 @@ The first example didn't seem to pan out, however, so I settled on the
 syntax of the second example. (executor.execute instead of executor.submit)
 
 I ended up with this syntax:
-
+```ada
    procedure Show_Search
      (Self : in out Object;
       Target : String )
@@ -35,7 +35,7 @@ I ended up with this syntax:
          Ada.Text_IO.Put_Line("***Operation timed out");
          Self.Clean_Up;
    end Show_Search;
-
+```
 
 Note: My Raspberry Pi don't fully support Ada 2012 at the moment,
 so I hacked my own version of Ada.Containers.Indefinite_Holders.
